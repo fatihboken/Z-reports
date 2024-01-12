@@ -1,0 +1,44 @@
+h1{
+    border: 2px solid red;
+    color: blue;
+    text-align: center;
+}
+
+#par1{
+    color: blue;
+    text-align: center;
+    column-count: 3;
+    column-rule: 3px double blue;
+    font-size: 1.2rem;
+}
+
+#par2{
+    color: red;
+    text-align: right;
+    direction: rtl;
+}
+
+#par3{
+    color: green;
+    text-align: justify;
+    text-indent: 20px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 3px black;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#par4{
+    color: purple;
+    text-transform: uppercase;
+    text-decoration: underline dashed;
+    
+}
+
+
+#par5{
+    color: brown;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
