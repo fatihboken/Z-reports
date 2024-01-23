@@ -1,0 +1,35 @@
+
+
+
+.main{
+    background-color: rgba(194, 239, 127, 0.88);
+    width: 90%;
+    margin: 50px auto;
+}
+
+.box1{
+    background-color: rgba(0, 0, 255, 0.81);
+    width: 100px;
+    height: 100px;
+}
+
+.box2{
+    background-color: rgba(255, 0, 255, 0.838);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.box3{
+    background-color: rgba(255, 140, 0, 0.81);
+    width: 100px;
+    height: 100px;
+}
+
+.box4{
+    background-color: rgba(255, 255, 0, 0.749);
+    width: 100px;
+    height: 100px;
+}
