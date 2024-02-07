@@ -4,7 +4,9 @@
 .main{
     background-color: rgba(194, 239, 127, 0.88);
     width: 90%;
+    height: 2000px;
     margin: 50px auto;
+    position: relative;
 }
 
 .box1{
@@ -26,10 +28,30 @@
     background-color: rgba(255, 140, 0, 0.81);
     width: 100px;
     height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .box4{
     background-color: rgba(255, 255, 0, 0.749);
     width: 100px;
     height: 100px;
+    position: fixed;
+    top: 300px;
+    right: 0;
+}
+
+.paragraf2{
+    background-color: rgba(128, 128, 0, 0.735);
+    border-radius: 20px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 25%;
+}
+
+.last{
+    width: 200%;
 }
