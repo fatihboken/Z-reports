@@ -1,0 +1,41 @@
+div {
+  text-align: center;
+}
+
+div i {
+  font-size: 10rem;
+  color: rgba(88, 56, 16);
+}
+
+.fa-bell {
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.fa-dollar-sign{
+    animation: snake .4s ease-in-out infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(15deg);
+    transform-origin: top;
+  }
+
+  100% {
+    transform: rotate(-15deg);
+    transform-origin: top;
+  }
+}
+
+@keyframes snake {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360);
+    }
+}
